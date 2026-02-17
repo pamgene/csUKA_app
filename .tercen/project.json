@@ -1,0 +1,30 @@
+{
+ "kind": "Project",
+ "id": "",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": "https://github.com/pamgene/csUKA_app"
+ },
+ "version": "978330ef8d732d0431c075fad286331cccf5c81f",
+ "isPublic": false
+}

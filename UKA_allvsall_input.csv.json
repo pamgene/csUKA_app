@@ -1,0 +1,128 @@
+{
+ "kind": "TableSchema",
+ "id": "3fc58ac4e9aca9a44689afb11b81bf308a44d0727ca9674b0708544f7b64c7be",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "UKA_allvsall_input.csv",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "3fc58ac4e9aca9a44689afb11b81bf308a44d0727ca9674b0708544f7b64c7be"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 2595,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "34732c75-861f-4a7e-9809-75bd14e73ccf",
+   "name": "Supergroup",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c5a225e0-613d-4fc1-b929-911bb7dd5ddb",
+   "name": "Group",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a179e24b-0a11-4654-aaa2-623eee6f309d",
+   "name": "ID",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "0226d970-2399-4b94-8950-07f0c425d02f",
+   "name": "Observation",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "dcee0bc3-c8b5-4bc4-9f91-5c1aff7924a3",
+   "name": "value",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  }
+ ],
+ "dataDirectory": "data/3f/c5/3fc58ac4e9aca9a44689afb11b81bf308a44d0727ca9674b0708544f7b64c7be",
+ "relation": {
+  "kind": "Relation",
+  "id": "1b4324f1-b884-4e7c-a282-d40ac04b3327"
+ },
+ "size": 0,
+ "storageSize": 91088.0
+}
