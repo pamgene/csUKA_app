@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "2",
+ "id": "0",
  "isDeleted": false,
  "rev": "",
  "description": "",
@@ -92,20 +92,20 @@
   },
   {
    "kind": "Link",
-   "id": "d1ae7458-10e9-4ccc-a283-f228acfbb40e",
+   "id": "0a3f8c40-ed29-4f69-944f-506565a134d7",
    "inputId": "079c1cd1-4620-40b6-90c2-4a26ad5e5627-i-0",
    "outputId": "c0e11fd1-b143-497c-97af-8481f9bf43c6-o-0"
   },
   {
    "kind": "Link",
-   "id": "f18a254b-ef99-4bfd-97e1-897c08b29635",
+   "id": "73966335-4da7-45bc-b731-9320f143af88",
    "inputId": "c0e11fd1-b143-497c-97af-8481f9bf43c6-i-0",
-   "outputId": "7c5b6285-b17f-4700-a5b7-3406ff1d218a-o-0"
+   "outputId": "ae21f84a-6373-475e-ac24-d500a80fe362-o-0"
   },
   {
    "kind": "Link",
-   "id": "fbf51e70-74bc-493d-9ab7-9cba1b8d138a",
-   "inputId": "72dd9bb6-26a7-4b25-a41a-744dfd4d5d25-i-0",
+   "id": "cbc6ad6e-0367-4cd8-8cfc-8d69fb01cb48",
+   "inputId": "193df2a0-85b8-4eb1-b7b7-4c3f8977889a-i-0",
    "outputId": "079c1cd1-4620-40b6-90c2-4a26ad5e5627-o-0"
   }
  ],
@@ -310,8 +310,8 @@
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "confidence scoring UKA Operator",
-      "version": "0.0.3",
-      "operatorId": "1",
+      "version": "0.0.5",
+      "operatorId": "2",
       "operatorKind": "DockerOperator",
       "propertyValues": [
        {
@@ -374,7 +374,8 @@
        "ontologyUri": "",
        "ontologyVersion": "",
        "inputSpecs": [],
-       "outputSpecs": []
+       "outputSpecs": [],
+       "outputSpecsV2": []
       }
      },
      "environment": [],
@@ -416,7 +417,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "9dc00240-8704-44dc-960a-d96e38423e13"
+    "id": "f9007b8a-d6d4-47d0-b62a-9c24bec8a8d0"
    },
    "parentDataStepId": ""
   },
@@ -627,7 +628,8 @@
        "ontologyUri": "",
        "ontologyVersion": "",
        "inputSpecs": [],
-       "outputSpecs": []
+       "outputSpecs": [],
+       "outputSpecsV2": []
       }
      },
      "environment": [
@@ -682,7 +684,7 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 150.0,
+         "x": 119.0,
          "y": 30.0
         },
         "topLeft": {
@@ -766,7 +768,7 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 149.0,
+         "x": 67.0,
          "y": 30.0
         },
         "topLeft": {
@@ -787,7 +789,7 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 120.0,
+         "x": 59.0,
          "y": 30.0
         },
         "topLeft": {
@@ -976,7 +978,28 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 200.0,
+         "x": 101.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      },
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
+        "name": "UKA.metadata",
+        "type": "string"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 120.0,
          "y": 30.0
         },
         "topLeft": {
@@ -994,7 +1017,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "5ab1a9bb-cb8b-4a54-8ed3-db9d148243eb"
+    "id": "4ba959d5-cad8-45d1-ad4f-099b9048675c"
    },
    "parentDataStepId": ""
   },
@@ -1235,7 +1258,8 @@
        "ontologyUri": "",
        "ontologyVersion": "",
        "inputSpecs": [],
-       "outputSpecs": []
+       "outputSpecs": [],
+       "outputSpecsV2": []
       }
      },
      "environment": [
@@ -1308,7 +1332,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "cf089b11-939a-4bd4-91d7-ef6212ceafbe"
+    "id": "36138a64-40df-487f-a8c9-c496af2d5666"
    },
    "parentDataStepId": ""
   },
@@ -1355,7 +1379,7 @@
    "kind": "DataStep",
    "id": "a2c08b38-cfce-4141-8c8c-df6e86ff632b",
    "groupId": "",
-   "name": "Shiny volcano spec score",
+   "name": "Flutter volcano spec score",
    "inputs": [
     {
      "kind": "InputPort",
@@ -1376,12 +1400,12 @@
     "kind": "Rectangle",
     "extent": {
      "kind": "Point",
-     "x": 165.48779296875,
+     "x": 171.64776611328125,
      "y": 55.0
     },
     "topLeft": {
      "kind": "Point",
-     "x": 655.256103515625,
+     "x": 652.1761169433594,
      "y": 294.5
     }
    },
@@ -1572,20 +1596,21 @@
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "Volcano Plot",
-      "version": "0.0.6",
-      "operatorId": "0",
-      "operatorKind": "ShinyOperator",
+      "version": "0.0.3",
+      "operatorId": "1",
+      "operatorKind": "WebAppOperator",
       "propertyValues": [],
       "url": {
        "kind": "Url",
-       "uri": "https://github.com/tercen/volcano_shiny_operator"
+       "uri": "https://github.com/tercen/volcano_flutter_operator"
       },
       "operatorSpec": {
        "kind": "OperatorSpec",
        "ontologyUri": "",
        "ontologyVersion": "",
        "inputSpecs": [],
-       "outputSpecs": []
+       "outputSpecs": [],
+       "outputSpecsV2": []
       }
      },
      "environment": [
@@ -1658,7 +1683,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "7159c9b0-33b7-4405-996e-326591beac2e"
+    "id": "5f76fd7c-4e45-45bc-9f5a-4acebfebb29d"
    },
    "parentDataStepId": ""
   },
@@ -1738,7 +1763,7 @@
    "kind": "DataStep",
    "id": "31c6fc6a-734e-4ac2-a60a-ced367df67a3",
    "groupId": "",
-   "name": "Final score histogram",
+   "name": "Specificity score histogram",
    "inputs": [
     {
      "kind": "InputPort",
@@ -1759,12 +1784,12 @@
     "kind": "Rectangle",
     "extent": {
      "kind": "Point",
-     "x": 144.45982360839844,
+     "x": 176.46376037597656,
      "y": 55.0
     },
     "topLeft": {
      "kind": "Point",
-     "x": 985.7700881958008,
+     "x": 969.7681198120117,
      "y": 294.5
     }
    },
@@ -1830,7 +1855,7 @@
          "kind": "GraphicalFactor",
          "factor": {
           "kind": "Factor",
-          "name": "UKA.Final score",
+          "name": "UKA.Specificity Score",
           "type": "double"
          },
          "rectangle": {
@@ -1893,42 +1918,7 @@
         }
        },
        "taskId": "",
-       "preprocessors": [
-        {
-         "kind": "PreProcessor",
-         "type": "xy",
-         "operatorRef": {
-          "kind": "OperatorRef",
-          "name": "histogram",
-          "version": "0.0.1",
-          "operatorId": "5ba24424-6e73-40f3-a65d-0448fa5d7371",
-          "operatorKind": "Operator",
-          "propertyValues": [
-           {
-            "kind": "PropertyValue",
-            "name": "bin.method",
-            "value": "per cell"
-           },
-           {
-            "kind": "PropertyValue",
-            "name": "max.bin.number",
-            "value": "256"
-           }
-          ],
-          "url": {
-           "kind": "Url",
-           "uri": ""
-          },
-          "operatorSpec": {
-           "kind": "OperatorSpec",
-           "ontologyUri": "",
-           "ontologyVersion": "",
-           "inputSpecs": [],
-           "outputSpecs": []
-          }
-         }
-        }
-       ]
+       "preprocessors": []
       }
      ]
     },
@@ -1986,7 +1976,8 @@
        "ontologyUri": "",
        "ontologyVersion": "",
        "inputSpecs": [],
-       "outputSpecs": []
+       "outputSpecs": [],
+       "outputSpecsV2": []
       }
      },
      "environment": [
@@ -2059,7 +2050,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "e6d30ad7-b716-45ab-981a-0f42d21e9472"
+    "id": "7bd793a0-accf-4631-b503-35a9fb3c5a85"
    },
    "parentDataStepId": ""
   },
@@ -2300,7 +2291,8 @@
        "ontologyUri": "",
        "ontologyVersion": "",
        "inputSpecs": [],
-       "outputSpecs": []
+       "outputSpecs": [],
+       "outputSpecsV2": []
       }
      },
      "environment": [
@@ -2373,7 +2365,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "2ab70357-fd7d-4f81-b12d-c851b2cc938d"
+    "id": "ed0543a6-3726-470b-bbff-b52554f443d5"
    },
    "parentDataStepId": ""
   },
@@ -2484,7 +2476,7 @@
       "kind": "MappingFactor",
       "name": "Group",
       "type": "string",
-      "description": "For Comparison-based UKA, select the factor that defines the comparison groups.\n\nExample:\n* Test Condition\n* Treatment off chip",
+      "description": "For Comparison-based UKA, select the factor that defines the comparison groups.\n\nExample:\n* Test Condition\n* Treatment off chip.\n\n For FC-based UKA, keep it empty.",
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
@@ -2497,7 +2489,7 @@
       ],
       "factorName": "Test Condition",
       "isSingle": true,
-      "isRequired": true
+      "isRequired": false
      },
      {
       "kind": "MappingFactor",
@@ -2522,7 +2514,7 @@
       "kind": "MappingFactor",
       "name": "Supergroup",
       "type": "string",
-      "description": "For Comparison-based UKA, select a factor that identifies the Supergroup. UKA is run for each group comparison within a Supergroup. \nExample:\n* Supergroup\n* Replicate\n* Cell line\n\nFor FC-based UKA, this is the factor that defines the observation. \nExample: \n* Sample_name",
+      "description": "For Comparison-based UKA, select a factor that identifies the Supergroup. Groups are compared within each Supergroup. \nExample:\n* Supergroup\n* Replicate\n* Cell line\n\nFor FC-based UKA, this is the factor that defines the samples/observation. \nExample: \n* Sample_name",
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
@@ -2541,7 +2533,7 @@
       "kind": "MappingFactor",
       "name": "Observation",
       "type": "string",
-      "description": "For Comparison-based UKA, select the factor(s) defining a single value per cell.\n\nExample:\n* Barcode and Row\n* Barcode and Array\n* Sample Name",
+      "description": "For Comparison-based UKA, select the factor(s) defining a single value per cell.\n\nExample:\n* Barcode and Row\n* Sample Name\n\n For FC-based UKA, keep it empty.",
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
@@ -2554,7 +2546,7 @@
       ],
       "factorName": "Single Data Value per Cell",
       "isSingle": false,
-      "isRequired": true
+      "isRequired": false
      }
     ],
     "filters": [],
@@ -2583,7 +2575,7 @@
       "kind": "MappingFactor",
       "name": "Group",
       "type": "string",
-      "description": "For Comparison-based UKA, select the factor that defines the comparison groups.\n\nExample:\n* Test Condition\n* Treatment off chip",
+      "description": "For Comparison-based UKA, select the factor that defines the comparison groups.\n\nExample:\n* Test Condition\n* Treatment off chip.\n\n For FC-based UKA, keep it empty.",
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
@@ -2596,7 +2588,7 @@
       ],
       "factorName": "Test Condition",
       "isSingle": true,
-      "isRequired": true
+      "isRequired": false
      },
      {
       "kind": "MappingFactor",
@@ -2621,7 +2613,7 @@
       "kind": "MappingFactor",
       "name": "Supergroup",
       "type": "string",
-      "description": "For Comparison-based UKA, select a factor that identifies the Supergroup. UKA is run for each group comparison within a Supergroup. \nExample:\n* Supergroup\n* Replicate\n* Cell line\n\nFor FC-based UKA, this is the factor that defines the observation. \nExample: \n* Sample_name",
+      "description": "For Comparison-based UKA, select a factor that identifies the Supergroup. Groups are compared within each Supergroup. \nExample:\n* Supergroup\n* Replicate\n* Cell line\n\nFor FC-based UKA, this is the factor that defines the samples/observation. \nExample: \n* Sample_name",
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
@@ -2640,7 +2632,7 @@
       "kind": "MappingFactor",
       "name": "Observation",
       "type": "string",
-      "description": "For Comparison-based UKA, select the factor(s) defining a single value per cell.\n\nExample:\n* Barcode and Row\n* Barcode and Array\n* Sample Name",
+      "description": "For Comparison-based UKA, select the factor(s) defining a single value per cell.\n\nExample:\n* Barcode and Row\n* Sample Name\n\n For FC-based UKA, keep it empty.",
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
@@ -2653,7 +2645,7 @@
       ],
       "factorName": "Single Data Value per Cell",
       "isSingle": false,
-      "isRequired": true
+      "isRequired": false
      }
     ],
     "defaultFilters": []
@@ -2661,13 +2653,13 @@
   },
   {
    "kind": "InStep",
-   "id": "7c5b6285-b17f-4700-a5b7-3406ff1d218a",
+   "id": "ae21f84a-6373-475e-ac24-d500a80fe362",
    "groupId": "",
    "name": "Input",
    "inputs": [
     {
      "kind": "InputPort",
-     "id": "7c5b6285-b17f-4700-a5b7-3406ff1d218a-i-0",
+     "id": "ae21f84a-6373-475e-ac24-d500a80fe362-i-0",
      "linkType": "any",
      "name": "from"
     }
@@ -2675,7 +2667,7 @@
    "outputs": [
     {
      "kind": "OutputPort",
-     "id": "7c5b6285-b17f-4700-a5b7-3406ff1d218a-o-0",
+     "id": "ae21f84a-6373-475e-ac24-d500a80fe362-o-0",
      "linkType": "any",
      "name": "to"
     }
@@ -2689,8 +2681,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 751.505,
-     "y": -5.5
+     "x": 734.505,
+     "y": -1.5
     }
    },
    "state": {
@@ -2709,13 +2701,13 @@
   },
   {
    "kind": "OutStep",
-   "id": "72dd9bb6-26a7-4b25-a41a-744dfd4d5d25",
+   "id": "193df2a0-85b8-4eb1-b7b7-4c3f8977889a",
    "groupId": "",
    "name": "Output",
    "inputs": [
     {
      "kind": "InputPort",
-     "id": "72dd9bb6-26a7-4b25-a41a-744dfd4d5d25-i-0",
+     "id": "193df2a0-85b8-4eb1-b7b7-4c3f8977889a-i-0",
      "linkType": "any",
      "name": "from"
     }
@@ -2723,7 +2715,7 @@
    "outputs": [
     {
      "kind": "OutputPort",
-     "id": "72dd9bb6-26a7-4b25-a41a-744dfd4d5d25-o-0",
+     "id": "193df2a0-85b8-4eb1-b7b7-4c3f8977889a-o-0",
      "linkType": "any",
      "name": "to"
     }
@@ -2737,8 +2729,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 921.505,
-     "y": 195.5
+     "x": 896.505,
+     "y": 169.5
     }
    },
    "state": {
@@ -2758,8 +2750,8 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": 22.0,
-  "y": 68.0
+  "x": 285.0,
+  "y": 90.0
  },
  "scale": 1.0
 }

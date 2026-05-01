@@ -1,0 +1,349 @@
+{
+ "kind": "TableSchema",
+ "id": "16447b56bf4400f18fc27f83b897ecd1acf5a7eff91472153b5695c12e9e3930",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "row",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "csUKA_app.UKA.contrast.size_in_bytes",
+   "value": "6488"
+  },
+  {
+   "kind": "Pair",
+   "key": "csUKA_app.UKA.Sgroup_contrast.size_in_bytes",
+   "value": "8888"
+  },
+  {
+   "kind": "Pair",
+   "key": "csUKA_app.UKA..Supergroup.size_in_bytes",
+   "value": "4912"
+  },
+  {
+   "kind": "Pair",
+   "key": "csUKA_app.UKA.Kinase Group.size_in_bytes",
+   "value": "3712"
+  },
+  {
+   "kind": "Pair",
+   "key": "csUKA_app.UKA.Kinase Uniprot ID.size_in_bytes",
+   "value": "4624"
+  },
+  {
+   "kind": "Pair",
+   "key": "csUKA_app.UKA.metadata.size_in_bytes",
+   "value": "58616"
+  },
+  {
+   "kind": "Pair",
+   "key": "csUKA_app.UKA.Kinase Name.size_in_bytes",
+   "value": "4048"
+  },
+  {
+   "kind": "Pair",
+   "key": "csUKA_app.UKA.Kinase Family.size_in_bytes",
+   "value": "3824"
+  },
+  {
+   "kind": "Pair",
+   "key": "hidden",
+   "value": "true"
+  },
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "16447b56bf4400f18fc27f83b897ecd1acf5a7eff91472153b5695c12e9e3930"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 300,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "21d34bc8-b8b8-4768-8a65-3a0bbc841723",
+   "name": "csUKA_app.UKA..Supergroup",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "33066787-1c9c-4fe4-b524-307eceafb552",
+   "name": "csUKA_app.UKA.Sgroup_contrast",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "415d4ba7-3b28-416f-b29d-d432afd46536",
+   "name": "csUKA_app.UKA.contrast",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "91ada7d2-ef91-4972-b24c-271799d358a2",
+   "name": "csUKA_app.UKA.Kinase Name",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "6c449ef2-13d3-4982-a244-6c84b5e5f594",
+   "name": "csUKA_app.UKA.Kinase Uniprot ID",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "14a3eba8-8242-4ad4-8398-84fb17a2abbc",
+   "name": "csUKA_app.UKA.entrezid",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "fe31f7aa-e708-478c-b204-b577418d93d5",
+   "name": "csUKA_app.UKA.Kinase Group",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "1fd8ebc1-3db4-47cf-a711-5db5f35b3bcd",
+   "name": "csUKA_app.UKA.Kinase Family",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d08336e7-df40-423b-bb5f-90b76cde0382",
+   "name": "csUKA_app.UKA.Kinase Statistic",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "dff446bb-d1f9-48e7-a5a2-1acda6fae21c",
+   "name": "csUKA_app.UKA.Specificity Score",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "f27fdb7b-e7b5-4991-a1c5-f808f4065a5f",
+   "name": "csUKA_app.UKA.Significance Score",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "4f48fdb1-eb12-4947-9c04-556c71b22f2f",
+   "name": "csUKA_app.UKA.Final score",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b53c5da8-14f1-40d5-a064-6ac62fc49ff5",
+   "name": "csUKA_app.UKA.Final score rank",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "fe94d37c-1646-4f49-b4d8-4ec864c827e9",
+   "name": "csUKA_app.UKA.Kinase Change",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e4ea7910-df84-4ee3-8b6b-209025da172c",
+   "name": "csUKA_app.UKA.Peptide set size",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "3761dd98-1b00-4349-a7a6-a9c2aafe782e",
+   "name": "csUKA_app.UKA.metadata",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  }
+ ],
+ "dataDirectory": "data/16/44/16447b56bf4400f18fc27f83b897ecd1acf5a7eff91472153b5695c12e9e3930",
+ "relation": {
+  "kind": "Relation",
+  "id": "00765af3-3d67-40c7-881a-2c71c534fdc9"
+ },
+ "size": 0,
+ "storageSize": 811608.0
+}

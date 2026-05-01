@@ -1,0 +1,42 @@
+{
+ "kind": "TableSchema",
+ "id": "4",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "Export-csUKA_app-Export",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 0,
+ "columns": [],
+ "dataDirectory": "",
+ "relation": {
+  "kind": "SimpleRelation",
+  "id": "16447b56bf4400f18fc27f83b897ecd1acf5a7eff91472153b5695c12e9e3930",
+  "index": 0
+ },
+ "size": 0,
+ "storageSize": 0.0
+}
