@@ -37,3 +37,12 @@ Input parameters|Default value|Description
 `NumberOfPerms` | 500 | Number of permutations to calculate significance and specificity scores
 `MaxRank` | 12 | Maximum PhospoNET rank for upstream kinases
 `ReverseContrast` | True | The direction of the contrast (Test vs Control or Control vs Test). True means "Test vs Control" type comparison.
+
+## Versions
+
+App version | Operator version | UKAdb version | Description
+---|---|---|---
+0.0.3 | 0.2.x | 0.6 | UKAdb 0.6.0. MinimumKLScore replaced by UseKL boolean (full KL on/off, default off).
+0.0.2 | 0.1.x | 0.5 & 0.6 | Default behavior unchanged from cs_uka operator 0.0.5, but added the possibility to switch in the UI to UKAdb 0.6.0. New UI params: UkaDbVersion, ConfidenceMapping/ScoreDf, MinimumKLScore (replacing UseKL).
+0.0.1 | 0.0.x | 0.5 | csUKA implementation of latest UKA_app
+

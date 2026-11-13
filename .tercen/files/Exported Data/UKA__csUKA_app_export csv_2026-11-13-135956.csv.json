@@ -1,0 +1,43 @@
+{
+ "kind": "FileDocument",
+ "id": "Exported Data/UKA__csUKA_app_export csv_2026-11-13-135956.csv",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "UKA__csUKA_app_export csv_2026-11-13-135956.csv",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": true,
+ "projectId": "",
+ "folderId": "5",
+ "dataUri": "lfs/58/e9/ccebc988cbb8f1469ef8781fc839dae7defe085db291c034646a19b327ce",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0,
+ "storageSize": 111674.0
+}
